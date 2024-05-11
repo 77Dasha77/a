@@ -127,6 +127,7 @@ body, html {
   .notif {
     width: 100%;
     height: 800px;
+    overflow: hidden;
     background-image: url("фон_уведы.png"); /* Фон для десктопной версии */
     background-size: cover;
     background-position: center;
