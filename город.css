@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 800px;
+  background-image: url("город.jpg"); /* Фон для десктопной версии */
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Для позиционирования дочерних элементов */
+}
+
+.image-button1 {
+  margin: 0;
+  position: absolute;
+  top: 14%;
+  right: 46%;
+  transform: scale(1.2);
+}
+
+.image-button2 {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  right: 48%;
+  transform: scale(1.2);
+}
+
+.image-button3 {
+  margin: 0;
+  position: absolute;
+  top: 24%;
+  right: 15%;
+  transform: scale(1.2);
+}
+
+.image-button4 {
+  margin: 0;
+  position: absolute;
+  top: 42%;
+  right: 33%;
+  transform: scale(1.2);
+}
+
+.image-button5 {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.notif {
+  display: none; /* Скрыто по умолчанию */
+  position: absolute; /* Позиционирование относительно контейнера */
+  top: 50%; /* Центрирование по вертикали */
+  left: 50%; /* Центрирование по горизонтали */
+  transform: translate(-50%, -50%); /* Чтобы центрирование было относительно центра элемента */
+}
+
+
+#notification {
+  background: none; /* Без фона */
+  border: none; /* Без границы */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.disp {
+  display: block; /* Используется для отображения меню */
+}
